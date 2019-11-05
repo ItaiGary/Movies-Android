@@ -27,15 +27,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RequestMapping(value ="movie")
 
-
 public class MovieController{
 
-
-	
 	private static Map<Integer,Movie> movies = new HashMap<>();
-    private static int counter = 2;
+    private static int counter = 6;
     static String url_MORTAL_KOMBAT = "https://image.tmdb.org/t/p/original/quwcbufZZiTMUjuiGSLKBkWWaga.jpg";
-    static String url_FOREST_GUMP = "https://en.wikipedia.org/wiki/Forrest_Gump#/media/File:Forrest_Gump_poster.jpg";
+    static String url_FOREST_GUMP = "https://fanart.tv/fanart/movies/13/movieposter/forrest-gump-52196a490f738.jpg";
     static String url_PAY_IT_FORWARD = "https://ndiahpangastuti.files.wordpress.com/2012/06/pay-it-forward-1.jpg";
     static String url_MOANA = "https://image.tmdb.org/t/p/original/pp6Cd5XuTiMsWZE6dTPp97J8Byr.jpg";
     static String url_BROTHER_BEAR = "http://img3.wikia.nocookie.net/__cb20140317235209/disney/images/8/86/Brother_Bear_Poster.png";
